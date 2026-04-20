@@ -10,9 +10,66 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <h1>Boostrap 5 Tutorial</h1>
+    
+    <div class="container-lg my-5">
+      <h2>basic grid</h2>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>column widths</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-3">
+          <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-3">
+          <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>responsive column widths</h2>
+      <!-- manually change gutter using g{d}-{n} -->
+      <div class="row gy-3">
+        <div class="col-sm-4 col-lg-6">
+          <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-sm4 col-lg-3">
+          <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-sm4 col-lg-3">
+          <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>justifying columns</h2>
+      <div class="row justify-content-center">
+        <!-- j-c-end, j-c-start, j-c-start, j-c-between, j-c-around -->
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
