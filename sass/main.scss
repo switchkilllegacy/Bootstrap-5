@@ -2,7 +2,7 @@
 $font-family-base: 'Inter', sans-serif;
 $headings-font-family: 'Playfair Display', serif;
 
-// custom variable (White Mode Defaults)
+// custom variable
 $primary: #39ff14;
 $secondary: #6c757d;
 $light: #ffffff;
@@ -49,7 +49,7 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
   .offcanvas {
     background-color: #1c1c21 !important;
     color: #f8faf7 !important;
-    border-color: rgba(248, 250, 247, 0.05) !important;
+    border-color: rgba(248, 250, 247, 0.2) !important;
   }
 
   .accordion-button {
@@ -60,19 +60,5 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
   .accordion-button:not(.collapsed) {
     background-color: #0a0a0c;
     color: #39ff14;
-  }
-
-  .form-control,
-  .form-select,
-  .input-group-text {
-    background-color: #222227;
-    color: #f8faf7;
-    border-color: rgba(248, 250, 247, 0.1);
-  }
-
-  .form-control:focus,
-  .form-select:focus {
-    border-color: #39ff14;
-    box-shadow: 0 0 0 0.25rem rgba(57, 255, 20, 0.15);
   }
 }
